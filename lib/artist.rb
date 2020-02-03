@@ -18,6 +18,8 @@ class Artist
   def add_song(song)
     @songs << song
   end
+  
+  def 
 
   def self.find_or_create_by_name(name)
     if self.find(name)
