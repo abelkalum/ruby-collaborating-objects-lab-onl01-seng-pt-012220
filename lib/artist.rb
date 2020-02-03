@@ -23,8 +23,7 @@ class Artist
     @songs
   end
 
-  def self
-    find_or_create_by_name(name)
+  def self.find_or_create_by_name(name)
     if self.find(name)
       self.find(name)
     else
