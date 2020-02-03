@@ -9,12 +9,11 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
-    @@instances
   end
 
   def self.all
-        @@instances.inspect
-    end
+    @@all
+  end
 
   def add_song(song)
     @songs << song
