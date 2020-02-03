@@ -12,8 +12,8 @@ class Artist
   end
 
   def self.all
-    @@all
-  end
+        @@instances.inspect
+    end
 
   def add_song(song)
     @songs << song
